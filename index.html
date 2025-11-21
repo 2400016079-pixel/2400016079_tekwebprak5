@@ -12,7 +12,7 @@
 <body class="bg-white">
 
   <!-- ========================= NAVBAR ========================= -->
-  <header class="w-full border-b border-[#D1D5DC]">
+  <header class="w-full border-b border-[#D1D5DC] relative z-50">
     <nav class="max-w-[1440px] mx-auto flex items-center justify-between px-6 lg:px-24 h-[64px]">
 
       <!-- LOGO -->
@@ -36,13 +36,13 @@
       </div>
 
       <!-- HAMBURGER BUTTON (MOBILE) -->
-      <button id="menuBtn" class="lg:hidden">
+      <button id="menuBtn" class="lg:hidden relative z-50">
         <img src="assets/icons/button.png" class="w-6 h-6" alt="menu">
       </button>
     </nav>
 
     <!-- MOBILE MENU -->
-    <div id="mobileMenu" class="hidden flex-col px-6 py-4 gap-4 lg:hidden">
+    <div id="mobileMenu" class="hidden flex-col px-6 py-4 gap-4 lg:hidden relative z-40">
      <a href="#" class="text-sm">Home</a>
 
       <a href="#" class="text-sm">Features</a>
