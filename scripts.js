@@ -1,13 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const menuBtn = document.getElementById("menuBtn");
-  const mobileMenu = document.getElementById("mobileMenu");
+  const btn = document.getElementById("menuBtn");
+  const menu = document.getElementById("mobileMenu");
 
-  if (menuBtn && mobileMenu) {
-    menuBtn.addEventListener("click", () => {
-      mobileMenu.classList.toggle("hidden");
-    });
-  } else {
-    console.log("menuBtn atau mobileMenu tidak ditemukan");
-  }
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("hidden");
+  });
 });
 
